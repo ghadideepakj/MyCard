@@ -11,6 +11,8 @@
 		F94FFC3E2D5CB65600414FF2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94FFC3D2D5CB65600414FF2 /* ContentView.swift */; };
 		F94FFC402D5CB65800414FF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F94FFC3F2D5CB65800414FF2 /* Assets.xcassets */; };
 		F94FFC432D5CB65800414FF2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F94FFC422D5CB65800414FF2 /* Preview Assets.xcassets */; };
+		F94FFC4D2D5CBCEA00414FF2 /* FrankRuhlLibre-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F94FFC4C2D5CBCEA00414FF2 /* FrankRuhlLibre-VariableFont_wght.ttf */; };
+		F94FFC532D5CE2A500414FF2 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94FFC522D5CE2A500414FF2 /* InfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		F94FFC3D2D5CB65600414FF2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F94FFC3F2D5CB65800414FF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F94FFC422D5CB65800414FF2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F94FFC4C2D5CBCEA00414FF2 /* FrankRuhlLibre-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FrankRuhlLibre-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		F94FFC522D5CE2A500414FF2 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +55,9 @@
 		F94FFC3A2D5CB65600414FF2 /* Card SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				F94FFC492D5CBABA00414FF2 /* Fonts */,
 				F94FFC3B2D5CB65600414FF2 /* Card_SwiftUIApp.swift */,
+				F94FFC522D5CE2A500414FF2 /* InfoView.swift */,
 				F94FFC3D2D5CB65600414FF2 /* ContentView.swift */,
 				F94FFC3F2D5CB65800414FF2 /* Assets.xcassets */,
 				F94FFC412D5CB65800414FF2 /* Preview Content */,
@@ -65,6 +71,14 @@
 				F94FFC422D5CB65800414FF2 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F94FFC492D5CBABA00414FF2 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				F94FFC4C2D5CBCEA00414FF2 /* FrankRuhlLibre-VariableFont_wght.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F94FFC432D5CB65800414FF2 /* Preview Assets.xcassets in Resources */,
+				F94FFC4D2D5CBCEA00414FF2 /* FrankRuhlLibre-VariableFont_wght.ttf in Resources */,
 				F94FFC402D5CB65800414FF2 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F94FFC3E2D5CB65600414FF2 /* ContentView.swift in Sources */,
+				F94FFC532D5CE2A500414FF2 /* InfoView.swift in Sources */,
 				F94FFC3C2D5CB65600414FF2 /* Card_SwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -197,7 +213,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -254,7 +270,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
